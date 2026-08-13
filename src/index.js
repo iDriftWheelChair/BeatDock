@@ -1,4 +1,3 @@
-require('dotenv').config();
 const fs = require('fs');
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 const { LavalinkManager } = require('lavalink-client');
