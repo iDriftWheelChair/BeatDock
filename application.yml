@@ -44,7 +44,7 @@ lavalink:
   server:
     password: "${LAVALINK_PASSWORD:youshallnotpass}"
     sources:
-      youtube: false
+      youtube: true
       soundcloud: true
       bandcamp: true
       twitch: true
