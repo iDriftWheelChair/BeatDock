@@ -17,6 +17,12 @@ plugins:
       - WEB            # arbitrary videos + RD mixes (needs poToken, pushed by pot-refresher)
       - WEBEMBEDDED    # embed / age-limited fallback (also uses poToken)
       - ANDROID_VR     # credential-free safety net if the poToken is momentarily unavailable
+      - ANDROID_MUSIC
+      - TVHTML5EMBEDDED
+      - TV
+      - IOS
+      - WEB
+      - MWEB
   lavasrc:
     providers:
       - "ytsearch:\"%ISRC%\""
@@ -51,8 +57,8 @@ lavalink:
       vimeo: true
       http: false
       local: false
-    bufferDurationMs: 200
-    frameBufferDurationMs: 1000
+    bufferDurationMs: 500
+    frameBufferDurationMs: 5000
     youtubePlaylistLoadLimit: 3
     playerUpdateInterval: 2
     trackStuckThresholdMs: 5000
